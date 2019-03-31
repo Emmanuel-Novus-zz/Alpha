@@ -27,7 +27,7 @@ client.on('ready', () => {
 });
 
 
-client.login("NTMyNjIzNTg4NjkyNTkwNzY3.DxfL-Q.txrI1UhnGbiU9IbNRjlUq7j1Ffw");
+client.login(config.token);
 
 fs.readdir("./events/", (err, files) => {
   if (err) return console.error(err);
